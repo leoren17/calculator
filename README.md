@@ -1,6 +1,6 @@
 # Simple Calculator 
 - Immediate Execution Logic
-- Built with React, JavaScript, HTML, CSS
+- Made with React, JavaScript, CSS, HTML
 
 
 
