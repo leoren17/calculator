@@ -1,0 +1,66 @@
+.Calculator {
+    border: 2px solid black;   
+    /* border-radius: 0.3rem;  */
+    background-color: black;
+}
+
+.formula {
+    min-height: 1rem;
+    background: black;
+    color: rgb(255, 151, 151);
+    text-align: right;
+    word-wrap:break-word; 
+    /* font-family: digital; */
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+.output {
+    background: rgb(43, 43, 43);
+    color: white;
+    text-align: right;
+    word-wrap:break-word; 
+    /* font-family: sans-serif; */
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+
+.grid-col-span-3 {
+    grid-column: span 3;
+}
+
+.buttons-grid {
+    display: grid;
+    gap: 0.1rem;
+    grid-template-columns: repeat(4, 1fr);
+    background-color:rgb(0, 0, 0);    
+}
+
+button {
+    height: 4rem;
+    /* width: 80px; */
+    color: white;
+    outline: 1px solid black;
+    background: #373636;
+    font-size: 20px;
+    cursor: default;
+    border: none;
+    border-radius: 0.1rem;
+}
+
+button:hover {
+    border: 1px solid white;
+    color: rgb(255, 151, 151);
+}
+
+#allClear {
+    background: rgb(173, 68, 68);
+}
+
+#equals {
+    background: rgb(9, 96, 139);
+}
+
+#divide, #multiply, #add, #subtract {
+    background: rgb(123, 120, 120);
+}
